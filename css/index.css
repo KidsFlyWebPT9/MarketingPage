@@ -1,29 +1,11 @@
 h1 {
-  background-color: #30B1BF;
-  font-family: tajawal;
-}
-h1 {
-  background-color: #30B1BF;
-  font-family: tajawal;
-  color: #3D3D3D;
-  text-align: center;
-  font-size: 5rem;
-}
-.material-icons {
-  color: red;
-  font-size: 100px;
-}
-.firstNav {
-  margin-left: 75rem;
-  padding: 5px;
-}
-.firstNav nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.firstNav nav a {
-  text-decoration: none;
+  font-family: 'Tajawal';
+  -webkit-text-stroke: 0.5px #3D3D3D;
+  color: #30B1BF;
+  text-align: left;
+  font-size: 10rem;
+  margin-top: 200px;
+  margin-left: 100px;
 }
 .whitetext {
   color: white;
@@ -31,7 +13,9 @@ h1 {
 }
 .topNavigation {
   width: 800px;
-  margin: 50px auto;
+  margin: 0px auto;
+  background-color: #30B1BF;
+  padding: 50px;
 }
 .topNavigation nav {
   width: 100%;
@@ -47,24 +31,30 @@ h1 {
   color: #8a8a8a;
 }
 body {
-  widows: 100vw;
   height: 100vh;
   background-image: url('https://images.unsplash.com/photo-1497581170673-3d7d98e9a075?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjcyMDE3fQ&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
   background-repeat: no-repeat;
-  background-size: 1300px 900px;
+  background-size: 1270px 900px;
 }
 .description {
   margin-top: 655px;
   color: #3D3D3D;
   background-color: white;
-  padding: 0px;
+  padding: 125px;
   font-size: 20px;
   margin-bottom: 100px;
 }
 .description h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-family: tajawal;
   text-align: center;
+  color: #30B1BF;
+}
+.theTeam {
+  text-align: center;
+  font-size: 40px;
+  color: #30B1BF;
+  padding: 160px;
 }
 .bottomNav {
   text-align: center;
