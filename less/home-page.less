@@ -3,7 +3,7 @@
 h1 {
     
     font-family:'Tajawal';
-    -webkit-text-stroke: 0.5px #3D3D3D;
+    -webkit-text-stroke: 1px #979797;
     color: #30B1BF;
     text-align:left;
     font-size: 10rem;
@@ -18,11 +18,12 @@ h1 {
     font-size: 2rem;
 }
 .topNavigation {
-    width:800px;
+    width:97%;
     margin: 0px auto;
     background-color:#30B1BF;
-    padding:50px;
-
+    padding:20px;
+    text-align: center;    
+    
         nav {
             width:100%;
             display:flex;
@@ -37,15 +38,20 @@ h1 {
                         }
                 }
         }
-}
+    }
 
 body {
     //margin-right:500px;
-    height:100vh;
-    background-image: url('https://images.unsplash.com/photo-1497581170673-3d7d98e9a075?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjcyMDE3fQ&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
+    background-image: linear-gradient(178.83deg, #FFFFFF -4.03%, rgba(255, 255, 255, 0) 61.46%),url('https://images.unsplash.com/photo-1497581170673-3d7d98e9a075?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjcyMDE3fQ&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
     background-repeat: no-repeat;
-    background-size: 1270px 900px;
-    //max-width:1500px;
+    background-size:cover;
+    max-width: 1104px;
+    max-height: 626px;
+    //position: absolute;
+    border-radius: 8px;
+    background-position: center;
+    //object-fit: cover;
+   
 }
 
 .description {
@@ -63,6 +69,33 @@ body {
                 
         }
     }
+.intro {
+    font-family:'Tajawal';
+    color: #30B1BF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.64px;
+    margin-left: 50px;
+
+}
+.appstart {
+    font-family: Tajawal;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    text-align: left;
+    letter-spacing: -0.32px;
+    color: #3D3D3D;
+    margin-left:50px;
+}
+
+.appbadge {
+    position: absolute;
+    display:flex;
+}
 .theTeam {
     text-align: center;
     font-size: 40px;
@@ -86,3 +119,11 @@ html {
 }
 
 
+/* qNHbXkO3Xbc */
+
+// position: absolute;
+// width: 1104px;
+// height: 626px;
+
+// background: linear-gradient(178.83deg, #FFFFFF -4.03%, rgba(255, 255, 255, 0) 61.46%), url(.jpg);
+// border-radius: 8px;
