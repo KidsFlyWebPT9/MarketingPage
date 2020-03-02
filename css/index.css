@@ -79,6 +79,61 @@ body {
   position: absolute;
   display: flex;
 }
+.login {
+  position: absolute;
+  width: 56px;
+  height: 29px;
+  left: 872px;
+  top: 13px;
+}
+.login nav {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #000000;
+}
+.or {
+  position: absolute;
+  width: 30px;
+  height: 38px;
+  left: 376px;
+  top: 350px;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.32px;
+}
+.bottomNavigation {
+  background: #30B1BF;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+  margin-top: 370px;
+}
+.bottomNavigation nav {
+  text-align: center;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+.bottomNavigation nav a {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  letter-spacing: -0.32px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .theTeam {
   text-align: center;
   font-size: 40px;
