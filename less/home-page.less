@@ -18,21 +18,23 @@ h1 {
     font-size: 2rem;
 }
 .topNavigation {
-    width:97%;
-    margin: 0px auto;
+    width:100%;
+    //margin-top: 0px;
+    //margin-left: 55px;
     background-color:#30B1BF;
-    padding:20px;
+    height:80px;
     text-align: center;    
     
         nav {
-            width:100%;
             display:flex;
             justify-content: space-between;
+            text-align:center;
                 a {
                     text-decoration: none;
                     //color: #3D3D3D;
                     color:white;
                     font-size: 20px;
+                    margin:20px auto;
                         &:hover{
                             color: lighten(#3D3D3D,30%);
                         }
@@ -45,25 +47,26 @@ body {
     background-image: linear-gradient(178.83deg, #FFFFFF -4.03%, rgba(255, 255, 255, 0) 61.46%),url('https://images.unsplash.com/photo-1497581170673-3d7d98e9a075?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjcyMDE3fQ&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
     background-repeat: no-repeat;
     background-size:cover;
-    max-width: 1104px;
+    max-width: 100%;
     max-height: 626px;
     //position: absolute;
     border-radius: 8px;
     background-position: center;
     //object-fit: cover;
+    margin: 0 auto;
    
 }
 
 .description {
    margin-top:655px;
    color: #3D3D3D;
-   background-color:white;
+   background: url("../airplane.jpg");
    padding:125px;
    font-size:20px;
    margin-bottom: 100px;
         h2 {
-            font-size: 40px;
-            font-family: tajawal;
+            font-size: 50px;
+            font-family: 'tajawal';
             text-align: center;
             color:#30B1BF;
                 
@@ -81,7 +84,7 @@ body {
 
 }
 .appstart {
-    font-family: Tajawal;
+    font-family: 'Tajawal';
     font-style: normal;
     font-size: 36px;
     font-weight: 500;
@@ -98,30 +101,37 @@ body {
 }
 
 .login {
-    position: absolute;
-    width: 56px;
-    height: 29px;
-    left: 872px;
-    top: 13px;
+    position: relative;
+    //width: 56px;
+    //height: 10px;
+    //left: 1010px;
+    //top: 13px;
+    background:white;
+    padding:2%;
+    
     
 
         nav {
-            text-decoration: none;
-            font-family: 'Tajawal';
-            font-style: normal;
-            font-weight: 500px;
-            font-size: 24px;
-            line-height: 29px;
-            text-decoration: none;
-             color: #000000;
+            margin-left:1100px;
+                a{
+                    text-decoration: none;
+                    font-family: 'Tajawal';
+                    font-style: normal;
+                    font-weight: 500px;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #000000;
+                }
         }
     
 }
+
+
 .or {
     position: absolute;
     width: 30px;
     height: 38px;
-    left: 376px;
+    left: 400px;
     top: 350px;
     font-family: 'Tajawal';
     font-style: normal;
@@ -169,8 +179,20 @@ body {
     font-size: 40px;
     color:#30B1BF;
     padding:160px;
+        h2 {
+            font-size: 50px;
+            font-family: 'tajawal';
+            text-align: center;
+            color:#30B1BF;
+        }
 }
 
+.teamPhotos {
+    display:block;
+    padding:30px;
+    margin: 30px auto;
+        
+}
 
 .bottomNav {
     text-align: center;
@@ -185,7 +207,9 @@ body {
 html { 
     scroll-behavior: smooth;
 }
-
+.appBtns {
+    display:flex;
+}
 
 /* qNHbXkO3Xbc */
 
