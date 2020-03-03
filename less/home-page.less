@@ -1,6 +1,11 @@
 
-@linkcolor:white;
+//@linkcolor:white;
 h1 {
+    @media (max-width: 500px) { 
+        font-size:5.5rem;
+        margin-top:90px;
+        margin-left:25px;
+    }
     
     font-family:'Tajawal';
     -webkit-text-stroke: 1px #979797;
@@ -10,13 +15,12 @@ h1 {
     margin-top:200px;
     margin-left:100px;
 
-
 }
 
-.whitetext {
-    color:@linkcolor;
-    font-size: 2rem;
-}
+//.whitetext {
+    //color:@linkcolor;
+    //font-size: 2rem;
+//}
 .topNavigation {
     width:100%;
     //margin-top: 0px;
@@ -54,10 +58,22 @@ body {
     background-position: center;
     //object-fit: cover;
     margin: 0 auto;
+
+    @media (max-width: 500px){
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
    
 }
 
 .description {
+    @media (max-width: 500px) {
+        width:90%;
+        margin:0 auto;
+        justify-content: center;
+        text-align: center;
+        padding:0px;
+    }
    margin-top:655px;
    color: #3D3D3D;
    background: url("../airplane.jpg");
@@ -73,6 +89,13 @@ body {
         }
     }
 .intro {
+    @media (max-width: 500px) {
+        font-size:2.5rem;
+        line-height: 20px;
+        letter-spacing: -0.64px;
+        margin-left: 10px;
+        display:flex;
+    }
     font-family:'Tajawal';
     color: #30B1BF;
     font-style: normal;
@@ -84,6 +107,13 @@ body {
 
 }
 .appstart {
+    @media (max-width: 500px) {
+        font-size:2.5rem;
+        line-height: 5px;
+        letter-spacing: -0.64px;
+        margin-left: 10px;
+        display:flex;
+    }
     font-family: 'Tajawal';
     font-style: normal;
     font-size: 36px;
@@ -96,9 +126,26 @@ body {
 }
 
 .appbadge {
-    position: absolute;
-    display:flex;
+    @media (max-width: 500px) {
+         //margin-left:1px;
+         //position:relative;
+         display:block;
+         padding:0px;
+         width:10px;
+         height:20px;
+         
+ }
+    position: relative;
+    //display:flex;
 }
+.appBtns {
+    @media (max-width: 500px){
+        display:block;
+        width:2px;
+        padding:0px;
+    }
+    display:flex;
+ }
 
 .login {
     position: relative;
@@ -108,9 +155,7 @@ body {
     //top: 13px;
     background:white;
     padding:2%;
-    
-    
-
+    width:100%;
         nav {
             margin-left:1100px;
                 a{
@@ -128,11 +173,15 @@ body {
 
 
 .or {
+@media (max-width: 500px) {
+    height:300px;
+    display:flex;
+}
     position: absolute;
     width: 30px;
-    height: 38px;
+    height: 300px;
     left: 400px;
-    top: 350px;
+    top: 75rem;
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: normal;
@@ -148,7 +197,8 @@ body {
     border-radius: 8px;
     width:200px;
     height:50px;
-    margin-top:370px;
+    margin-top:10rem;
+    margin-left:30rem;
         nav {
             //width:100%;
             //display:flex;
@@ -207,15 +257,15 @@ body {
 html { 
     scroll-behavior: smooth;
 }
-.appBtns {
-    display:flex;
+
+@media (max-width: 500px) {
+    .login {
+        width:100vw;
+            nav{
+                margin-left: 20px;
+                text-align:center;
+                position:relative;
+            }
+        
+    }
 }
-
-/* qNHbXkO3Xbc */
-
-// position: absolute;
-// width: 1104px;
-// height: 626px;
-
-// background: linear-gradient(178.83deg, #FFFFFF -4.03%, rgba(255, 255, 255, 0) 61.46%), url(.jpg);
-// border-radius: 8px;
