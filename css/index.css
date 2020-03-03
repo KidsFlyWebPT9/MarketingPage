@@ -117,7 +117,7 @@ body {
 }
 @media (max-width: 500px) {
   .appbadge {
-    display: block;
+    display: flex;
     padding: 0px;
     width: 10px;
     height: 20px;
@@ -129,8 +129,7 @@ body {
 @media (max-width: 500px) {
   .appBtns {
     display: block;
-    width: 2px;
-    padding: 0px;
+    margin: 0 auto;
   }
 }
 .login {
@@ -167,8 +166,7 @@ body {
 }
 @media (max-width: 500px) {
   .or {
-    height: 300px;
-    display: flex;
+    margin-top: 5px;
   }
 }
 .bottomNavigation {
@@ -180,6 +178,11 @@ body {
   height: 50px;
   margin-top: 10rem;
   margin-left: 30rem;
+}
+@media (max-width: 500px) {
+  .bottomNavigation {
+    margin-top: 2rem;
+  }
 }
 .bottomNavigation nav {
   text-align: center;
@@ -213,6 +216,11 @@ body {
   display: block;
   padding: 30px;
   margin: 30px auto;
+}
+@media (max-width: 500px) {
+  .teamPhotos {
+    width: 100%;
+  }
 }
 .bottomNav {
   text-align: center;

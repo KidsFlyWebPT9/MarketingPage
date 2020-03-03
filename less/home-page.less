@@ -129,7 +129,7 @@ body {
     @media (max-width: 500px) {
          //margin-left:1px;
          //position:relative;
-         display:block;
+         display:flex;
          padding:0px;
          width:10px;
          height:20px;
@@ -141,8 +141,7 @@ body {
 .appBtns {
     @media (max-width: 500px){
         display:block;
-        width:2px;
-        padding:0px;
+        margin:0 auto;
     }
     display:flex;
  }
@@ -174,8 +173,7 @@ body {
 
 .or {
 @media (max-width: 500px) {
-    height:300px;
-    display:flex;
+    margin-top:5px;
 }
     position: absolute;
     width: 30px;
@@ -191,6 +189,9 @@ body {
     letter-spacing: -0.32px;
 }
 .bottomNavigation {
+    @media (max-width: 500px){
+        margin-top:2rem;
+    }
     background: #30B1BF;
     border: 1px solid #979797;
     box-sizing: border-box;
@@ -238,6 +239,12 @@ body {
 }
 
 .teamPhotos {
+    @media (max-width: 500px){
+        //justify-content: center;
+        
+        width:100%;
+        
+    }
     display:block;
     padding:30px;
     margin: 30px auto;
