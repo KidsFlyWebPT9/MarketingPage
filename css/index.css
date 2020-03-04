@@ -9,9 +9,10 @@ h1 {
 }
 @media (max-width: 500px) {
   h1 {
-    font-size: 5.5rem;
-    margin-top: 90px;
-    margin-left: 25px;
+    font-size: 6.5rem;
+    margin-top: 20px;
+    margin-left: 100px;
+    -webkit-text-stroke: 1px black;
   }
 }
 .topNavigation {
@@ -61,7 +62,7 @@ body {
 @media (max-width: 500px) {
   .description {
     width: 90%;
-    margin: 0 auto;
+    margin-top: 500px;
     justify-content: center;
     text-align: center;
     padding: 0px;
@@ -86,10 +87,10 @@ body {
 @media (max-width: 500px) {
   .intro {
     font-size: 2.5rem;
-    line-height: 20px;
+    margin-top: 0px;
     letter-spacing: -0.64px;
     margin-left: 10px;
-    display: flex;
+    display: none;
   }
 }
 .appstart {
@@ -106,21 +107,20 @@ body {
 @media (max-width: 500px) {
   .appstart {
     font-size: 2.5rem;
-    line-height: 5px;
+    line-height: 2px;
     letter-spacing: -0.64px;
     margin-left: 10px;
-    display: flex;
+    display: none;
+    width: 100vw;
   }
 }
 .appbadge {
   position: relative;
+  display: flex;
 }
 @media (max-width: 500px) {
   .appbadge {
-    display: flex;
-    padding: 0px;
-    width: 10px;
-    height: 20px;
+    display: block;
   }
 }
 .appBtns {
@@ -129,7 +129,12 @@ body {
 @media (max-width: 500px) {
   .appBtns {
     display: block;
-    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .appBtns {
+    margin-top: 2px;
+    display: flex;
   }
 }
 .login {
@@ -139,7 +144,9 @@ body {
   width: 100%;
 }
 .login nav {
-  margin-left: 1100px;
+  margin-right: 50px;
+  text-align: right;
+  position: relative;
 }
 .login nav a {
   text-decoration: none;
@@ -163,10 +170,16 @@ body {
   line-height: 38px;
   text-align: center;
   letter-spacing: -0.32px;
+  display: flex;
 }
 @media (max-width: 500px) {
   .or {
-    margin-top: 5px;
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .or {
+    display: none;
   }
 }
 .bottomNavigation {
@@ -178,10 +191,18 @@ body {
   height: 50px;
   margin-top: 10rem;
   margin-left: 30rem;
+  display: flex;
 }
 @media (max-width: 500px) {
   .bottomNavigation {
-    margin-top: 2rem;
+    margin-top: 100px;
+    margin-left: 2rem;
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .bottomNavigation {
+    display: none;
   }
 }
 .bottomNavigation nav {
@@ -221,14 +242,6 @@ body {
   .teamPhotos {
     width: 100%;
   }
-}
-.bottomNav {
-  text-align: center;
-}
-.bottomNav a {
-  text-decoration: none;
-  border: 2px solid red;
-  background: white;
 }
 html {
   scroll-behavior: smooth;
