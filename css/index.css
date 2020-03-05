@@ -114,19 +114,27 @@ body {
     width: 100vw;
   }
 }
-.appbadge {
-  position: relative;
-  display: flex;
-}
-.appBtns {
+.badges {
   display: flex;
 }
 @media (max-width: 500px) {
-  .appBtns {
+  .badges {
     display: block;
-    padding: 1px;
-    width: 60%;
-    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .googlePlay {
+    display: block;
+    margin-top: 150px;
+    padding: 20px;
+    margin-left: -50px;
+  }
+}
+@media (max-width: 500px) {
+  .appStore {
+    margin-left: 45px;
+    display: block;
+    margin-left: -10px;
   }
 }
 .login {
@@ -182,7 +190,7 @@ body {
   position: absolute;
   width: 200px;
   height: 50px;
-  margin-top: 10rem;
+  margin-top: 19rem;
   margin-left: 30rem;
   display: flex;
 }
@@ -218,7 +226,6 @@ body {
   text-align: center;
   font-size: 40px;
   color: #30B1BF;
-  padding: 160px;
 }
 .theTeam h2 {
   font-size: 50px;
@@ -228,8 +235,7 @@ body {
 }
 .teamPhotos {
   display: block;
-  padding: 30px;
-  margin: 30px auto;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .teamPhotos {
