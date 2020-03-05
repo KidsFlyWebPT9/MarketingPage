@@ -1,0 +1,257 @@
+h1 {
+  font-family: 'Tajawal';
+  -webkit-text-stroke: 1px #979797;
+  color: #30B1BF;
+  text-align: left;
+  font-size: 10rem;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 6.5rem;
+    margin-top: 20px;
+    margin-left: 100px;
+    -webkit-text-stroke: 1px black;
+  }
+}
+.topNavigation {
+  width: 100%;
+  background-color: #30B1BF;
+  height: 80px;
+  text-align: center;
+}
+.topNavigation nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.topNavigation nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 20px auto;
+}
+.topNavigation nav a:hover {
+  color: #8a8a8a;
+}
+body {
+  background-image: linear-gradient(178.83deg, #FFFFFF -4.03%, rgba(255, 255, 255, 0) 61.46%), url('../img/kid.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 626px;
+  border-radius: 8px;
+  background-position: center;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.description {
+  margin-top: 655px;
+  color: #3D3D3D;
+  background: url("../airplane.jpg");
+  padding: 125px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+@media (max-width: 500px) {
+  .description {
+    width: 90%;
+    margin-top: 500px;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+  }
+}
+.description h2 {
+  font-size: 50px;
+  font-family: 'tajawal';
+  text-align: center;
+  color: #30B1BF;
+}
+.intro {
+  font-family: 'Tajawal';
+  color: #30B1BF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.64px;
+  margin-left: 50px;
+}
+@media (max-width: 500px) {
+  .intro {
+    font-size: 2.5rem;
+    margin-top: 0px;
+    letter-spacing: -0.64px;
+    margin-left: 10px;
+    display: none;
+  }
+}
+.appstart {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  text-align: left;
+  letter-spacing: -0.32px;
+  color: #3D3D3D;
+  margin-left: 50px;
+}
+@media (max-width: 500px) {
+  .appstart {
+    font-size: 2.5rem;
+    line-height: 2px;
+    letter-spacing: -0.64px;
+    margin-left: 10px;
+    display: none;
+    width: 100vw;
+  }
+}
+.badges {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .badges {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .googlePlay {
+    display: block;
+    margin-top: 150px;
+    padding: 20px;
+    margin-left: -50px;
+  }
+}
+@media (max-width: 500px) {
+  .appStore {
+    margin-left: 45px;
+    display: block;
+    margin-left: -10px;
+  }
+}
+.login {
+  position: relative;
+  background: white;
+  padding: 2%;
+  width: 100%;
+}
+.login nav {
+  margin-right: 50px;
+  text-align: right;
+  position: relative;
+}
+.login nav a {
+  text-decoration: none;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.or {
+  position: absolute;
+  width: 30px;
+  height: 300px;
+  left: 400px;
+  top: 75rem;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  display: flex;
+}
+@media (max-width: 500px) {
+  .or {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .or {
+    display: none;
+  }
+}
+.bottomNavigation {
+  background: #30B1BF;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin-top: 19rem;
+  margin-left: 30rem;
+  display: flex;
+}
+@media (max-width: 500px) {
+  .bottomNavigation {
+    margin-top: 100px;
+    margin-left: 2rem;
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .bottomNavigation {
+    display: none;
+  }
+}
+.bottomNavigation nav {
+  text-align: center;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+.bottomNavigation nav a {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  letter-spacing: -0.32px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.theTeam {
+  text-align: center;
+  font-size: 40px;
+  color: #30B1BF;
+}
+.theTeam h2 {
+  font-size: 50px;
+  font-family: 'tajawal';
+  text-align: center;
+  color: #30B1BF;
+}
+.teamPhotos {
+  display: block;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .teamPhotos {
+    width: 100%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width: 500px) {
+  .login {
+    width: 100vw;
+  }
+  .login nav {
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+  }
+}
