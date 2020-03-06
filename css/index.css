@@ -160,8 +160,8 @@ body {
   position: absolute;
   width: 30px;
   height: 300px;
-  left: 400px;
-  top: 69rem;
+  left: 145px;
+  top: 63rem;
   font-family: 'Tajawal';
   font-style: normal;
   font-weight: normal;
@@ -189,8 +189,8 @@ body {
   position: absolute;
   width: 200px;
   height: 50px;
-  margin-top: 10rem;
-  margin-left: 30rem;
+  margin-top: 4rem;
+  margin-left: 15rem;
   display: flex;
 }
 @media (max-width: 500px) {
