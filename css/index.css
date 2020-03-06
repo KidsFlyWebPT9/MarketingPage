@@ -53,7 +53,7 @@ body {
 .description {
   margin-top: 655px;
   color: #3D3D3D;
-  background: url("../airplane.jpg");
+  background: url('../img/airplane.jpg');
   padding: 125px;
   font-size: 20px;
   margin-bottom: 100px;
@@ -235,6 +235,7 @@ body {
 .teamPhotos {
   display: block;
   width: 100%;
+  font-size: 20px;
 }
 @media (max-width: 500px) {
   .teamPhotos {
